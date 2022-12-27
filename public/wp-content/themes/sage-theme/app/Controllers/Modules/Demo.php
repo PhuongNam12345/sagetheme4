@@ -11,6 +11,7 @@ class Demo
             'title'=>$module['title'],
             'decs'=>$module['decs'],
             'heading'=>$module['heading']
+           
         ];
     }
 }

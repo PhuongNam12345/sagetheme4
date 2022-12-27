@@ -1,12 +1,12 @@
 <footer id="footer" class="module footer w-full">
     <div class="w-full relative">
-        <div class="absolute w-full">
-            <img class="w-full h-205" src="{!! App::getBanner()['footer'] !!}"
+        <div class="absolute top-1 w-full">
+            <img class="w-full" src="{!! App::getBanner()['footer'] !!}"
              alt="{!! App::getBanner()['footer'] !!}" class="w-full">
         </div>
-        <div class="absolute top-[250px] w-full">
-            <div class="flex flex-col xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center">
-                <div class=" absolute 2xl:relative xl:absolute  2xl:mb-22">
+        <div class="absolute w-full justify-center top-45 ">
+            <div class="flex flex-col absolute top-25 lg:top-50 xl:w-4/5 md:w-full justify-between mx-auto xl:items-start md:items-center 2xl:mb-50">
+                <div class=" absolute 2xl:relative xl:  2xl:mb-22">
                     <img  src="{!! App::getLogo()['logoft'] !!}" alt="{!! App::getLogo()['alt'] !!}" class="w-full">
                 </div>
                 <div class="flex w-full 2xl:items-start xl:items-end md:items-center xl:flex-row md:flex-col">
@@ -43,10 +43,11 @@
                             <div class="py-5 xl:px-0 md:px-6">
                                 <p>HANDOFF WEBSITE</p>
                             </div>
-                        </div>
+                        
                         <div class="px-10 py-5 border-2 rounded-3xl ">
                             <a href="" class="text-white font-bold">CONTACT</a>
                         </div>
+                    </div>
                     </div>
                 </div>
                 <p>© Encompass Technologies 2021</p>

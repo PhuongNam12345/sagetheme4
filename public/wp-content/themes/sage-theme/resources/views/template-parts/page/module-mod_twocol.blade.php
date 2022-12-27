@@ -2,15 +2,15 @@
 <body>
     <section class=" flex justify-center w-full ">
         <div class=" w-4/5 flex flex-col xl:w-4/5 xl:flex-row 2xl:w-3/5  ">
-            <div class="w-full lg:mb-[51px] lg:mr-[102px] xl:mr-[87px] xl:flex flex-col xl:w-2/5">
-                <div class="Line-4 mb-[9px]"></div>
+            <div class="w-full lg:mb-25 lg:mr-51 xl:mr-44 xl:flex flex-col xl:w-2/5">
+                <div class="Line-4 mb-4"></div>
                 <h2>
                     The Encompass Platform Seamlessly Connects the Supply Chain, Allowing You to:
                 </h2>
             </div>
             <div class="flex-col flex w-full lg:flex-row xl:w-full ">
-                <div class=" lg:mr-[55px] ">
-                    <div class="lg:mb-[55px]">
+                <div class=" lg:mr-27 ">
+                    <div class="lg:mb-27">
                         <h3>
                             Drive Business Growth
                         </h3>

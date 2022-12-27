@@ -1,27 +1,27 @@
 @layer base {
   body {
-    @apply text-base text-left text-black xl:text-lg;
+    @apply text-base text-left text-black ;
   }
   html {
     @apply m-0;
   }
   html,
   body{
-    @apply overflow-x-hidden bg-gray-200 text-lg;
+    @apply overflow-x-hidden bg-gray-200 ;
   }
   h1,
   .h1 {
-    @apply  font-bold text-left  text-h55;
+    @apply  font-bold text-left  text-h1-md;
   }
 
   h2,
   .h2 {
-    @apply text-h2 font-bold  ;
+    @apply text-h2-md font-bold  ;
   }
 
   h3,
   .h3 {
-    @apply  font-bold  text-h36  ;
+    @apply  font-bold  text-h3-md  ;
   }
 
   h4,

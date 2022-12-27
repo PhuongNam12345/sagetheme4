@@ -3,7 +3,7 @@
 
 @tailwind components;
 
-@tailwind utilities;
+@tailwind utilities;    
 
 
 @import 'base/*.scss';
@@ -15,4 +15,4 @@
 @import 'modules/*.scss';
 $slick-font-path: "~slick-carousel/slick/fonts/";
 $slick-loader-path: "~slick-carousel/slick/";
-@import '~slick-carousel/slick/slick';          
+@import '~slick-carousel/slick/slick';              

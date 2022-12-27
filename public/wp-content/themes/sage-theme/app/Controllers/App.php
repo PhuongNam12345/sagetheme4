@@ -47,6 +47,7 @@ class App extends Controller
         $molerm = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/content6/molerm.png';
         $untappd = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/content6/untapp.png';
         $towns = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/content6/logof6.png';
+       
         $lap = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/content8/lap.png';
         $bg = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/content8/bg.png';
         $advance = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logof1.png';
@@ -59,7 +60,7 @@ class App extends Controller
         $logoft = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logoF.png';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
-        return compact('lap','logoft','bg','url', 'aperity', 'cba', 'provi', 'salsify','fourpic', 'molerm', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
+        return compact('lap','logoft','bg','url', 'aperity', 'cba', 'provi', 'salsify','fourpic', 'molerm', 'untappd', 'advance', 'barringer' ,'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
     }
 
     public static function getBanner()
@@ -81,9 +82,14 @@ class App extends Controller
         $icon2 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/content2/icon2.png';
         $icon3 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/content2/icon3.png';
         $icon4 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/content2/icon4.png';
+        $icon71 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/content7/icon7_1.png';
+        $icon72 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/content7/icon7_2.png';
+        $icon73 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/content7/icon7_3.png';
+
+
         $alt = ($icon && $icon['alt']) ? $icon['alt'] : 'icon';
         $href = home_url();
-        return compact('icon1', 'icon2', 'icon3', 'icon4', 'alt', 'href');
+        return compact('icon1', 'icon2', 'icon3', 'icon4','icon71' ,'icon73','icon72', 'alt', 'href');
     }
 
     public static function getFooterAddress()
@@ -151,7 +157,7 @@ class App extends Controller
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeHeaderMenu(),
-                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white flex-col text-inherit
+                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-red flex-col text-inherit
                 lg:flex-row lg:justify-end',
                 ECHO_TEXT => false,
             ));

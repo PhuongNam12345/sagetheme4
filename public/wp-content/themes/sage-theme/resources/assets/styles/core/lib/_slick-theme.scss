@@ -21,6 +21,22 @@
  
 }
 
+.slick-prev2,
+.slick-next2 {
+  position: absolute;
+  top: 110%;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transform: translate(0, -50%);
+  z-index: 11;
+  @apply text-primary;
+ 
+}
+
 .slick-prev {
 
 }
