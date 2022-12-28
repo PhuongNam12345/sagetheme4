@@ -10,7 +10,7 @@
           </div>
         <div class="w-full text-center items-center flex flex-col lg:flex-row lg:items-start ">
             <div class="my-10 w-full items-center flex-col flex md:mr-5">
-                <img class="mb-8 min-w-600 xl:p-0 min-w-854 lg:min-w-726 2xl:min-w-975" src="<?php echo App::getIcon()['icon1']; ?>"
+                <img class="mb-8  xl:p-0 min-w-854 lg:min-w-726 2xl:min-w-975" src="<?php echo App::getIcon()['icon1']; ?>"
                 alt="<?php echo App::getIcon()['alt']; ?>">
                 <h2>Solutions for Manufacturers</h2>
                 <p> Integrate all aspects of your operations with a sinsgle source of truth for planning, purchasing, production, QC, inventory, sales, accounting, finance, and business intelligence.</p>             
@@ -20,14 +20,14 @@
                 </a>
             </div>
             <div class="">
-                <img class="  min-w-[50px] lg:rotate-90 " src="<?php echo App::getIcon()['icon4']; ?>"
+                <img class="min-w-40 rotate" src="<?php echo App::getIcon()['icon4']; ?>"
                 alt="<?php echo App::getIcon()['alt']; ?>">
             </div>
             <div class="my-10 w-full items-center flex-col flex lg:mx-5">
-                <img class=" mb-8 min-w-600 " src="<?php echo App::getIcon()['icon2']; ?>"
+                <img class=" mb-8  " src="<?php echo App::getIcon()['icon2']; ?>"
                 alt="<?php echo App::getIcon()['alt']; ?>">
                 <h2>Solutions for Manufacturers</h2>
-                <p> Integrate all aspects of your operations with a sinsgle source of truth for planning, purchasing, production, QC, inventory, sales, accounting, finance, and business intelligence.</p>             
+                <p> Run a more efficient business by optimizing interactions with your distributors and customers with solutions like online ordering, retail eCommerce websites, delivery applications, and more.</p>             
                 <a class="no-underline text-red-200">
                     <span>EXPLORE ENCOMPASS CLOUD</span> 
                     <span class="icomoon icon-chevron-right w-3"></span>
@@ -35,11 +35,11 @@
                 
             </div>
             <div >
-                <img class="min-w-[50px] lg:rotate-90 " src="<?php echo App::getIcon()['icon4']; ?>"
+                <img class="min-w-40 rotate " src="<?php echo App::getIcon()['icon4']; ?>"
                 alt="<?php echo App::getIcon()['alt']; ?>">
             </div> 
             <div class="my-10 w-full  items-center flex-col flex lg:ml-5">
-                <img class=" mb-8 min-w-600 " src="<?php echo App::getIcon()['icon3']; ?>"
+                <img class=" mb-8 " src="<?php echo App::getIcon()['icon3']; ?>"
                 alt="<?php echo App::getIcon()['alt']; ?>">
                 <h2>Solutions for Manufacturers</h2>
                 <p> Integrate all aspects of your operations with a sinsgle source of truth for planning, purchasing, production, QC, inventory, sales, accounting, finance, and business intelligence.</p>             

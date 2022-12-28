@@ -6,7 +6,7 @@ export default class TowCol {
     test1(){
         $('h1,h3,p').click(function(){
             $('h1,h3,p').removeClass('bg-primary');
-            $(this).addClass('bg-primary');        
+            // $(this).addClass('bg-primary');        
         });
         // $("h1,h3,p").click(function(){
         //     $("h1,h3,p").hide();
@@ -16,8 +16,9 @@ export default class TowCol {
     
     init () {
         this.test1()
+        
     }
   }
   
-  new TowCol().init()
+//   new TowCol().init()
   

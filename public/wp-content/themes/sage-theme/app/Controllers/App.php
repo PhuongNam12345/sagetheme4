@@ -157,7 +157,7 @@ class App extends Controller
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeHeaderMenu(),
-                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-red flex-col text-inherit
+                'menu_class' => 'main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white flex-col text-inherit
                 lg:flex-row lg:justify-end',
                 ECHO_TEXT => false,
             ));
@@ -174,10 +174,10 @@ class App extends Controller
         if (has_nav_menu($location)) {
             return wp_nav_menu(array(
                 THEME_LOCATION => $location,
-                ITEMS_WRAP => '%3$s',
                 CONTAINER => false,
                 DEPTH => 2,
                 WALKER => new \App\Services\Nav\C8ThemeFooterMenu(),
+                'menu_class' => 'flex list-none justify-around w-70%',
                 ECHO_TEXT => false,
             ));
         } else {

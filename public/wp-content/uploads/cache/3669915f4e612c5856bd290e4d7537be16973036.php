@@ -3,7 +3,7 @@
             <div class=" w-full col ">
                 <img class="min-w-20 " src="<?php echo App::getLogo()['fourpic']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
             </div>
-            <div class=" mt-[10%] col w-full justify-center lg:row lg:w-4/5 xl:w-full ">
+            <div class=" mt-10% col w-full justify-center lg:row lg:w-4/5 xl:w-full ">
                 <h2>Connecting Your Business to Whs Matters Most</h2>
                 <p> At Encompass, we are committed to improving the way the beverage industry works. <br> <br>
                     How people make decisions, how they serve customers, and how they run their businesses—we bring it

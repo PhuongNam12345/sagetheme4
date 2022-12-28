@@ -1,4 +1,4 @@
-<section class="w-full mt-[-70px] ">
+<section class="w-full mt-t70 ">
   <div class="banner relative mb-100 lg:mb-0  ">
     <img class="min-w-1702 lg:min-w-1678 2xl:w-full 2xl:min-w-1610   5xl:min-w-full" src="<?php echo App::getBanner()['BannerL']; ?>"
     alt="<?php echo App::getBanner()['alt']; ?>">

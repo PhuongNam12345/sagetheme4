@@ -93,105 +93,6 @@
                     "min": "",
                     "max": ""
                 },
-                "layout_639ca818ab9fa": {
-                    "key": "layout_639ca818ab9fa",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639ca818ab9f9": {
-                    "key": "layout_639ca818ab9f9",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639ca818ab9f8": {
-                    "key": "layout_639ca818ab9f8",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639ca818ab9f7": {
-                    "key": "layout_639ca818ab9f7",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639ca817ab9f6": {
-                    "key": "layout_639ca817ab9f6",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639c9da953948": {
-                    "key": "layout_639c9da953948",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639ca7e5ab9f5": {
-                    "key": "layout_639ca7e5ab9f5",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639ca7e3ab9f4": {
-                    "key": "layout_639ca7e3ab9f4",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639c9da653947": {
-                    "key": "layout_639c9da653947",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639c9da553946": {
-                    "key": "layout_639c9da553946",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_639c9da353945": {
-                    "key": "layout_639c9da353945",
-                    "name": "",
-                    "label": "",
-                    "display": "block",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
                 "layout_63a0808f895d6": {
                     "key": "layout_63a0808f895d6",
                     "name": "testimonial_slider",
@@ -200,9 +101,9 @@
                     "sub_fields": [
                         {
                             "key": "field_63a082c576a00",
-                            "label": "tes",
-                            "name": "tes",
-                            "type": "repeater",
+                            "label": "testimonial",
+                            "name": "testimonial",
+                            "type": "post_object",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -211,33 +112,14 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "collapsed": "",
-                            "min": 0,
-                            "max": 0,
-                            "layout": "table",
-                            "button_label": "",
-                            "sub_fields": [
-                                {
-                                    "key": "field_63a5498086bbb",
-                                    "label": "testimonial",
-                                    "name": "testimonial",
-                                    "type": "post_object",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "post_type": "",
-                                    "taxonomy": "",
-                                    "allow_null": 0,
-                                    "multiple": 0,
-                                    "return_format": "object",
-                                    "ui": 1
-                                }
-                            ]
+                            "post_type": [
+                                "testimonial"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 1,
+                            "multiple": 1,
+                            "return_format": "object",
+                            "ui": 1
                         }
                     ],
                     "min": "",
@@ -831,5 +713,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672150573
+    "modified": 1672253901
 }

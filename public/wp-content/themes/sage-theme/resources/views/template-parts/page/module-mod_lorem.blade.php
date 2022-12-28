@@ -5,7 +5,7 @@
             <span class="text-5xl font-bold text-black-200 leading-normal">Streamlined</span>
             <span class="text-4xl leading-tight">to Provide a Single Source of Truth</span>
         </div>
-        <div class="flex flex-col py-20  w-1/3 md:border-b-4 md:border-t-4 lg:border-b-0 lg:border-t-0 mx-0   border-brown-300 mb-25 ">
+        <div class="flex flex-col py-20  w-1/3 md:border-b-4 md:border-t-4 lg:border-b-0 lg:border-t-0 mx-0 //  border-brown-300 mb-25 ">
             <img class="w-65" src="{!! App::getIcon()['icon72'] !!}" alt="{!! App::getIcon()['alt'] !!}">
             <span class="text-5xl font-bold text-black-200 leading-normal">Scalable,</span>
             <span class="text-4xl leading-tight">Flexible Solutions</span>
